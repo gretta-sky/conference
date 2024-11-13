@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Manrope, sans-serif;
+
+}
+
+ul, 
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    max-width: 700;
+    margin-top: 0;
+
+    margin-bottom: 0;
+}
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 46px;
+    max-width: 164px;
+    width: 100%;
+  
+    border: none;
+    outline: none;
+  
+    border-radius: 3px;
+    background-color: #fbfbfb;
+    box-shadow: 3px 3px 0px 0px #00c4ef;
+  
+    transition: 0.3s box-shadow, 0.3s color;
+  
+    padding: 12px 24px;
+  
+    color: #007afb;
+  
+    cursor: pointer;
+  }
+  .btn:hover {
+    box-shadow: none;
+    color: #00c8fa;
+  }
+  
+
+.inner {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+  
+}
+
+.bg-container {
+    padding-top: 30px;
+    background-color: #007AFB;
+    height: 665px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .page-header {
+        height: 80px;
+    }
+
+    .page-header .inner {
+      
+        justify-content: space-between;
+        align-items: center;
+       
+        height: 100%;
+    }
+
+    .page-header .logo {
+    display: flex;
+    width: 186px;
+    height: 45.13px;
+  
+    gap: 0px;
+    opacity: 0px;
+
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+    left: 120px;
+
+}
+.page-header .right-nav  {
+    align-self: flex-end;
+}
+
+.page-header .right-nav li {
+    margin-right: 33px;
+    
+}
+
+.page-header .right-nav li:last-child {
+margin-right: 0;
+}
+
+.right-nav ul {
+    margin: 25px 50px 50px 200px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: flex-end;
+ position: absolute;
+ right: 50px;
+
+}
+.page-header .right-nav a {
+    width: 91px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.86px;
+text-decoration: none;
+color: #FBFBFB;
+
+text-transform: none;
+text-decoration: none;
+}
+
+.page-header nav li.active a {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.14px;
+    text-align: right;
+}
+
+.bg-container .inner {
+    flex-direction: column;
+    align-items: center;
+}
+
+.base {
+    margin: 100px 20px 20px 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.logo2 {
+    width: 100px;
+height: 20.23px;
+
+
+    padding: 0 15px;
+}
+
+.banner-container .text {
+    color: #fbfbfb;
+  }
+
+  .banner-container .join-title {
+    font-size: 15px;
+  
+    margin-bottom: 24px;
+  }
+  .banner-container .join-title img {
+    height: 20px;
+  
+    margin: 0 11px;
+  }
+  
+
+.banner-container .banner-title {
+    height: 100px;
+  
+    margin-bottom: 40px;
+  }
+
+.banner-container .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
+.banner-container .info-item {
+  display: flex;
+  align-items: center;
+}
+
+.banner-container .info-item img {
+  margin-right: 8px;
+}
+
+.banner-container .info-item:first-child {
+  margin-right: 40px;
+}
+
+.banner-container .description {
+  margin-bottom: 52px;
+}
+
+.banner-container .action-btn-container {
+  margin-bottom: 100px;
+}
+
+.celebrate-container {
+    padding-top: 52px;
+    padding-bottom: 60px;
+  }
+  .celebrate-container .inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .celebrate-container .heading {
+    margin-bottom: 24px;
+  }
+  .celebrate-container .text {
+    text-align: center;
+  
+    margin-bottom: 40px;
+  }
+  .celebrate-container img {
+    display: block;
+  
+    margin-bottom: 40px;
+  }
+
+  .celebrate-container .tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .celebrate-container .tags li {
+    color: #5070b6;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: lowercase;
+  
+    margin-right: 40px;
+  }
+  
+  .celebrate-container .tags li:last-child {
+    margin-right: 0;
+  }
+  
